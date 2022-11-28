@@ -71,11 +71,11 @@ box-shadow: 0px 0px 2px 10px #e97575f2;
 .image-parlax {
   position: absolute;
   width: 63%; /* Ширина изображения */
-  top: 50px;
+  top: 62px;
   left: 232px;
   border: 20px double #639;
   background-color: #f0f8ff;
-  box-shadow: 10px 10px 10px 0 rgb(0 0 0 / 45%);
+  box-shadow: 0px 4px 0px 43px #9e9e9ea6;
   cursor: pointer;
 }
 .image-container{
@@ -210,16 +210,16 @@ box-shadow: 0px 0px 2px 10px #e97575f2;
 }
 
 @media screen and (max-width: 768px) {
-.image-parlax {width: 87%; top: 118px; left: 29px; }
+.image-parlax {width: 87%; top: 118px; left: 29px; box-shadow: 0px 4px 0px 21px #9e9e9ea6;}
 .front-side, .back-side { min-height: 496px; }
 }
 
 @media screen and (max-width: 425px) {
-.image-parlax { width: 86%;top: 256px; left: 5px; }
+.image-parlax { width: 86%;top: 256px; left: 8px; box-shadow: 2px 3px 6px 0px grey;}
 .front-side, .back-side { min-height: 244px; }
 }
 
 @media screen and (max-width: 375px) {
-.image-parlax { width: 86%; top: 249px; left: 5px; }
+.image-parlax { width: 86%; top: 249px; left: 5px; box-shadow: 2px 3px 10px 1px grey;}
 .front-side, .back-side { min-height: 234px; }
 }
