@@ -87,7 +87,7 @@ box-shadow: 0px 0px 2px 10px #e97575f2;
 .front-side, .back-side{
   background-size: cover;
   background-position: center;
-  min-height: 599px; /* Высота изображения */
+  min-height: 576px; /* Высота изображения */
   height: auto;
   order: 1px solid #00dcff;
   order-radius: 50%; /* Скругление углов */
