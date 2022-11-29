@@ -5,7 +5,7 @@
 
 body {
 box-sizing: border-box;
-background-color: #d7d5d4e8/*#ffe4c4*/;
+background-color: #463831e8/*#ffe4c4*/;
 }
 /*
 .content_certificate {
@@ -74,8 +74,8 @@ box-shadow: 0px 0px 2px 10px #e97575f2;
   top: 62px;
   left: 232px;
   border: 20px double #639;
-  background-color: #f0f8ff;
-  box-shadow: 0px 4px 0px 43px #9e9e9ea6;
+  background-color: #ffffff9e;
+  box-shadow: 0px 4px 0px 43px #ffffff;
   cursor: pointer;
 }
 .image-container{
@@ -209,17 +209,22 @@ box-shadow: 0px 0px 2px 10px #e97575f2;
 .front-side, .back-side { min-height:584px; }
 }
 
+@media screen and (max-width: 800px) {
+.image-parlax {width: 87%; top: 298px; left: 29px; box-shadow: 2px 3px 8px 3px #000000;}
+.front-side, .back-side { min-height: 496px; }  
+}
+
 @media screen and (max-width: 768px) {
-.image-parlax {width: 87%; top: 118px; left: 29px; box-shadow: 0px 4px 0px 21px #9e9e9ea6;}
+.image-parlax {width: 87%; top: 118px; left: 29px; box-shadow: 2px 3px 8px 3px #000000;}
 .front-side, .back-side { min-height: 496px; }
 }
 
 @media screen and (max-width: 425px) {
-.image-parlax { width: 86%;top: 256px; left: 8px; box-shadow: 2px 3px 6px 0px grey;}
+.image-parlax { width: 86%;top: 256px; left: 8px; box-shadow: 2px 3px 6px 0px #1a1515;}
 .front-side, .back-side { min-height: 244px; }
 }
 
 @media screen and (max-width: 375px) {
-.image-parlax { width: 86%; top: 249px; left: 5px; box-shadow: 2px 3px 10px 1px grey;}
+.image-parlax { width: 86%; top: 249px; left: 5px; box-shadow: 2px 3px 10px 1px #1a1515;}
 .front-side, .back-side { min-height: 234px; }
 }
